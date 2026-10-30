@@ -29,3 +29,12 @@ data/training_results/*.txt
 backend/logs/security/*.log
 !backend/logs/security/README.md
 
+
+# Build OTA lab artifacts
+.ota-out/
+**/.ota-out/
+
+__pycache__/
+**/__pycache__/
+
+*.torrent
